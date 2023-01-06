@@ -29,7 +29,13 @@ function ready() {
 }
 
 function purchaseClicked(){
-    alert('You have purchase')
+    var carttotal = document.getElementsByClassName('cart-total-price')[0].innerText
+    alert(`You have purchase was made \n Your total is ${carttotal}`)
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    while (cartItems.hasChildNodes()){
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal()
 }
 
 function addToCartClicked(event){
