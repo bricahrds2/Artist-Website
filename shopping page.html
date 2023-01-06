@@ -3,11 +3,14 @@
     <head>
         <title>Denzel Curry - Melt My Eyez - Merch Collection</title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="Mycode.css"/>
+        <script src="store.js" async></script>
     </head>
     <body>
-        <header>
-            <h1> Denzel Curry | Store and Merch</h1>
-            <nav>
+        <header class="main-header">
+            <h1 class="top-h1 art-name"> Denzel Curry </h1>
+            <hr>
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="my first page.html">Home</a></li>
                     <li><a href="shopping page.html">Store</a></li>
@@ -15,167 +18,161 @@
                     <li><a href="https://laylo.com/denzelcurry">GET UPDATES</a></li>
                 </ul>
             </nav>
-            <hr>
+            
         </header>
-        <h1>Store</h1>
-        <section>
-            <button type="menu">Featured </button>
-            <section>
-                <h2>Music</h2>
-                <div>
-                    <img src ="images/Vinyl Merch.jpg" width="200" height="200">
-                    <div>
-                        <strong>Melt My Eyes See Your Future Vinyl</strong>
+        <h1 class="section-header">Store</h1>
+        <section class="container content-section">
+            <button class="btn btn-primary btn-dropdown"  type="menu">Featured </button>
+                <h2 class="section-header">Music</h2>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <img class="shop-item-image" src ="images/Vinyl Merch.jpg">
+                        
+                        <span class="shop-item-title">Melt My Eyes See Your Future Vinyl</span>
+                    
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$25.00</span>
+                            <button class="btn btn-primary shop-item-button"  role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$25.00</span>
-                        <button role="button">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src ="images/Limited Edition Vinyl Merch.webp" width="200" height="200">
-                    <div>
-                        <strong>Melt My Eyes See Your Future Limited Edition Vinyl </strong>
+                    <div class="shop-item">
+                        <img class="shop-item-image" src ="images/Limited Edition Vinyl Merch.webp" width="350" height="350">
+                        
+                        <span class="shop-item-title">Melt My Eyes See Your Future Limited Edition Vinyl </span>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$28.00</span>
+                            <button  class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$28.00</span>
-                        <button role="button">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src ="images/DenzelCurry_CassPackshot.webp" width="220" height="150">
-                    <div>
-                        <strong>Melt My Eyes See Your Future Cassette</strong>
+                    <div class="shop-item">
+                        <img class="shop-item-image" src ="images/DenzelCurry_CassPackshot.webp" width="220" height="150">
+                        
+                        <span class="shop-item-title" >Melt My Eyes See Your Future Cassette</span>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$10.00</span>
+                            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$10.00</span>
-                        <button role="button">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src ="images/Denzel Curry Digital Album.webp" width="200" height="200">
-                    <div>
-                        <strong>Melt My Eyes See Your Future Digital Edition</strong>
+                    <div class="shop-item">
+                        <img class="shop-item-image" src ="images/Denzel Curry Digital Album.webp" width="200" height="200">
+                        
+                        <span class="shop-item-title">Melt My Eyes See Your Future Digital Edition</span>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$9.99</span>
+                            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$9.99</span>
-                        <button role="button">ADD TO CART</button>
                 </div>
-            <section>
-                <h2>Merch</h2>
-                <div>
-                    <!-- ADD HOVER IMAGE-->
-                    <img src ="images/Cap Merch.jpg" width="200" height="200">
-                    <div>
-                        <strong>Melt My Eyez Cap</strong>
+                <h2 class="section-header">Merch</h2>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <!-- ADD HOVER IMAGE-->
+                        <img class="shop-item-image" src ="images/Cap Merch.jpg" width="200" height="200">
+                        
+                            <span class="shop-item-title">Melt My Eyez Cap</strong>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$22.00</span>
+                            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$22.00</span>
-                        <button role="button">ADD TO CART</button>
-                </div>
-                <div>
-                    <!-- ADD HOVER IMAGE-->
-                    <img src ="images/Denzel Curry Liner Jacket Melt My Eyez.webp" width="150" height="200">
-                    <div>
-                        <strong>Melt My Eyez Liner Jacket</strong>
+                    <div class="shop-item">
+                        <!-- ADD HOVER IMAGE-->
+                        <img class="shop-item-image" src ="images/Denzel Curry Liner Jacket Melt My Eyez.webp" width="150" height="200">
+                        
+                        <span class="shop-item-title">Melt My Eyez Liner Jacket</span>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$120.00</span>
+                            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$120.00</span>
-                        <button role="button">ADD TO CART</button>
-                </div>
-                <div><!-- ADD HOVER IMAGE-->
-                    <img src ="images/Long Sleeve Merch.png" width="200" height="200">
-                    <div>
-                        <strong>Melt My Eyez Long Sleeve</strong>
+                    <div class="shop-item"><!-- ADD HOVER IMAGE-->
+                        <img class="shop-item-image" src ="images/Long Sleeve Merch.png" width="200" height="200">
+                        
+                        <span class="shop-item-title">Melt My Eyez Long Sleeve</span>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$45.00</span>
+                            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$45.00</span>
-                        <button role="button">ADD TO CART</button>
-                </div>
-                <div><!-- ADD HOVER IMAGE-->
-                    <img src ="images/Red Album Merch.webp" width="200" height="200">
-                    <div>
-                        <strong>Melt My Eyez Red Album Shirt</strong>
+                    <div class="shop-item"><!-- ADD HOVER IMAGE-->
+                        <img class="shop-item-image" src ="images/Red Album Merch.webp" width="200" height="200">
+                        
+                        <span class="shop-item-title">Melt My Eyez Red Album Shirt</span>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$35.00</span>
+                            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$35.00</span>
-                        <button role="button">ADD TO CART</button>
                 </div>
-            </section>
-            <section>
-                <h2>Miscellaneous</h2>
-                <div><!-- ADD HOVER IMAGE-->
-                    <img src ="images/Denzel Curry Kenny Beats Tote Bag.jpg" width="200">
-                    <div>
-                        <strong>Melt My Eyez Tote Bag</strong>
+                <h2 class="section-header">Miscellaneous</h2>
+                <div class="shop-items">
+                    <div class="shop-item"><!-- ADD HOVER IMAGE-->
+                        <img class="shop-item-image" src ="images/Denzel Curry Kenny Beats Tote Bag.jpg" width="200">
+                        
+                        <span class="shop-item-title">Melt My Eyez Tote Bag</span>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$35.00</span>
+                            <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$35.00</span>
-                        <button role="button">ADD TO CART</button>
-                </div>
-                <div><!-- ADD HOVER IMAGE-->
-                    <img src ="images/Denzel Curry X Kenny Beats Unlocked Bottle.png" width="200">
-                    <div>
-                        <strong>Denzel Curry X Kenny Beats Unlocked Bottle</strong>
+                    <div class="shop-item"><!-- ADD HOVER IMAGE-->
+                        <img class="shop-item-image" src ="images/Denzel Curry X Kenny Beats Unlocked Bottle.png" width="200">
+                        
+                        <span class="shop-item-title">Denzel Curry X Kenny Beats Unlocked Bottle</span>
+                        
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$25.00</span>
+                            <button class="btn btn-primary shop-item-button"role="button">ADD TO CART</button>
+                        </div>
                     </div>
-                    <div>
-                        <span>$35.00</span>
-                        <button role="button">ADD TO CART</button>
                 </div>
-            </section>
         </section>
         <br>
         <div>
-        <section>
-            <button type="button">1</button>
-            <button type="button">2</button>
-            <button type="button">&gt;</button>
+        <section class="shop-page-selector">
+            <button class="btn btn-primary" type="button">1</button>
+            <button class="btn btn-primary" type="button">2</button>
+            <button class="btn btn-primary" type="button">&gt;</button>
         </section>
         </div>
-        <br>
-        <section>
-            <h2>CART</h2>
-            <div>
-                <strong>ITEM</strong>
-                &lt;&gt;
-                <strong>PRICE</strong>
-                &lt;&gt;
-                <strong>SIZE</strong>
-                &lt;&gt;
-                <strong>QUANTITY</strong>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row ">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                
+                <span class="cart-size cart-header cart-column">SIZE</span>
+                
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
-            <div>
-                <img src="images/Denzel Curry Digital Album.webp" width="60">
-                <span>Digital Album Denzel Curry</span>
-                &lt;&gt;
-                <span>$9.99</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
+            <div class="cart-items">
+                
             </div>
-            <div>
-                <img src="images/Red Album Merch.webp" width="60">
-                <span>Denzel Curry Red Album Shirt</span>
-                &lt;&gt;
-                <span>$35.00</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
-            </div>
-            <hr>
-            <div>
-                <strong>TOTAL</strong>
-                <span>$41.99</span>
-            </div>
-            <div>
-                <button role="button">CHECK OUT</button>
+            <div class="cart-total">
+                <span class="cart-total-title">TOTAL:</span>
+                <span class="cart-total-price">$0</span>
+                <button class="btn  btn-primary btn-total" role="button">CHECK OUT</button>
             </div>
         </section>
-        <footer>
-            <div>
-                <h8>GET UPDATES</h8>
-                <h8>FOLLOW</h8>
+        <footer class="main-footer">
+            <h2 class="art-name">Melt My Eyez See Your Future</h2>
+            <div class="container main-footer-container">
+                <div class="block-container">
+                    <h8>GET UPDATES</h8>
+                    <a href="www.laylo/denzelcurry">SIGN UP</a>
                 </div>
-                <div>
-                <a href="www.laylo/denzelcurry">SIGN UP</a>
-                <ul>
+                <div class="block-container">
+                    <h8>FOLLOW</h8>
+                    <ul class="nav">
                     <a href="https://www.instagram.com/denzelcurryph/" target="blank">
                         <img src="images/Instagram Logo.png" width="30" height="30"></a>
                     <a href="https://www.facebook.com/ultimatedenzelcurry/" target="blank">
@@ -184,8 +181,9 @@
                         <img src="images/New Twitter Logo.png" width="30" height="30"></a>
                     <a href="https://www.youtube.com/user/DENZELCURRYPH" target="blank">
                         <img src="images/YOutube Logo.png" width="30" height="30"></a>
-                </ul>
+                    </ul>
                 </div>
+            </div>
         </footer>
     </body>
 </html>

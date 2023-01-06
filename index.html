@@ -3,11 +3,13 @@
     <head>
         <title>Denzel Currry</title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="Mycode.css"/>
     </head>
     <body>
-        <header>
-            <h1> Denzel Curry </h1>
-            <nav>
+        <header class="main-header">
+            <h1 class="top-h1 art-name"> Denzel Curry </h1>
+            <hr>
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="my first page.html">Home</a></li>
                     <li><a href="shopping page.html">Store</a></li>
@@ -15,104 +17,96 @@
                     <li><a href="https://laylo.com/denzelcurry">GET UPDATES</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>The Generics</h1>
-            <button type="button">Get Updates</button>
-            <br>
-            <br>
-            <button type="button">&#9658;</button>
-            <br>
-            <br>
+            
+            <button class ="btn btn-header" type="button">Get Updates</button>
+            
+            <button class ="btn btn-header" type="button">Listen Now</button>
+
+            <button class ="btn btn-header btn-play" type="button">&#9658;</button>
+
             <!-- TO DO: FINE A BACK GROUND IMAGE WITH SCROLLING WORDS-->
-            <button type="button">Listen Now</button>
         </header>
-        <section>
-            <h2>SHOP</h2>
-            <br>
-            <h2>MUSIC</h2>
-            <br>
-            <h2> SHOWS </h2>
+        <section class="content-section container">
+            <h2 class="section-header"> SHOWS </h2>
             <div>
-                <div>
-                    <strong>SEPT 16 FRI</strong> 
-                    &lt;&gt;
-                    <span>THe Fillmore Charlotte @ 8:00pm</span>
-                    &lt;&gt;
-                    <span>w/redveil, AG Club, PLAYTHATBOIZAY</span>
-                    &lt;&gt;
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEPT 16 FRI</span> 
+                    <span class="tour-item tour-city">The Fillmore Charlotte @ 8:00pm</span>
+                    <span class="tour-item tour-arena">w/redveil, AG Club, PLAYTHATBOIZAY</span>
                     Charlotte, NC, United States 
-                    &lt;&gt;
-                    <button type="button"> GET TICKETS</button> <button type="button"> RSVP</button>
-                    <hr>
+                    <button class ="btn tour-item tour-btn btn-primary" type="button"> GET TICKETS</button> <button class ="btn tour-item tour-btn btn-primary" type="button"> RSVP</button>
+                    
                 </div>
-                <div>
-                    <strong>SEPT 17 SAT</strong>
-                    &lt;&gt;
-                    <span>Marathon Music Works @ 7:00pm</span>
-                    &lt;&gt;
-                    <span>w/redveil, AG Club, PLAYTHATBOIZAY</span>
-                    &lt;&gt;
-                    Nashville, TN, United States <button>TICKETS</button> <button>RSVP</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEPT 17 SAT</span>
+                    <span class="tour-item tour-city">Marathon Music Works @ 7:00pm</span>
+                    
+                    <span class="tour-item tour-arena">w/redveil, AG Club, PLAYTHATBOIZAY</span>
+                    
+                    Nashville, TN, United States <button class ="btn tour-item tour-btn btn-primary" type="button">TICKETS</button> <button class ="btn tour-item tour-btn btn-primary" type="button">RSVP</button>
+                    
                 </div>
-                <div>
-                    <strong>SEPT 18 SUN</strong>
-                    &lt;&gt;
-                    <span>Riveiera Theatre @ 7:30pm</span>
-                    &lt;&gt;
-                    <span>w/redveil, AG Club, PLAYTHATBOIZAY</span>
-                    &lt;&gt;
-                    Chicago, IL, United States <button>TICKETS</button> <button>RSVP</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEPT 18 SUN</span>
+                    
+                    <span class="tour-item tour-city">Riveiera Theatre @ 7:30pm</span>
+                   
+                    <span class="tour-item tour-arena">w/redveil, AG Club, PLAYTHATBOIZAY</span>
+                    
+                    Chicago, IL, United States <button class ="btn tour-item tour-btn btn-primary" type="button">TICKETS</button> <button class ="btn tour-item tour-btn btn-primary" type="button">RSVP</button>
+                    
                 </div>
-                <div>
-                    <strong>SEPT 20 TUE</strong>
-                    &lt;&gt;
-                    <span>Palace Theatre @ 7:00pm</span>
-                    &lt;&gt;
-                    <span>w/redveil, AG Club, PLAYTHATBOIZAY</span>
-                    &lt;&gt;
-                    Saint Paul, MN, United States <button>TICKETS</button> <button>RSVP</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEPT 20 TUE</span>
+                    
+                    <span class="tour-item tour-city">Palace Theatre @ 7:00pm</span>
+                    
+                    <span class="tour-item tour-arena">w/redveil, AG Club, PLAYTHATBOIZAY</span>
+                    
+                    Saint Paul, MN, United States <button class ="btn tour-item tour-btn btn-primary" type="button" >TICKETS</button> <button class ="btn tour-item tour-btn btn-primary" type="button">RSVP</button>
+                    
                 </div>
-                <div>
-                    <strong>SEPT 21 WED</strong>
-                    &lt;&gt;
-                    <span>Royal Oak Music Theatre @ 7:00pm</span>
-                    &lt;&gt;
-                    <span>w/redveil, AG Club, PLAYTHATBOIZAY</span>
-                    &lt;&gt;
-                    Royal Oak, MI, United States <button>TICKETS</button> <button>RSVP</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEPT 21 WED</span>
+                    
+                    <span class="tour-item tour-city">Royal Oak Music Theatre @ 7:00pm</span>
+                    
+                    <span class="tour-item tour-arena">w/redveil, AG Club, PLAYTHATBOIZAY</span>
+                    
+                    Royal Oak, MI, United States <button class ="btn tour-item tour-btn btn-primary" type="button">TICKETS</button> <button class ="btn tour-item tour-btn btn-primary" type="button">RSVP</button>
+                    
                 </div>
-                <div>
-                    <strong>SEPT 22 THU</strong>
-                    &lt;&gt;
-                    <span>REBEL @ 7:00pm</span>
-                    &lt;&gt;
-                    <span>w/redveil, AG Club, PLAYTHATBOIZAY</span>
-                    &lt;&gt;
-                    Toronto, ON, United States <button>TICKETS</button> <button>RSVP</button>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEPT 22 THU</span>
+                    
+                    <span class="tour-item tour-city">REBEL @ 7:00pm</span>
+                   
+                    <span class="tour-item tour-arena">w/redveil, AG Club, PLAYTHATBOIZAY</span>
+                    
+                    Toronto, ON, United States <button class ="btn tour-item tour-btn btn-primary" type="button">TICKETS</button> <button class ="btn tour-item tour-btn btn-primary" type="button">RSVP</button>
                 </div>
             </div>
         </section>
-        <footer>
-            <div>
-            <h8>GET UPDATES</h8>
-            <h8>FOLLOW</h8>
-            </div>
-            <div>
-            <a href="www.laylo/denzelcurry">SIGN UP</a>
-            <ul>
-                <a href="https://www.instagram.com/denzelcurryph/" target="blank">
-                    <img src="images/Instagram Logo.png" width="30" height="30"></a>
-                <a href="https://www.facebook.com/ultimatedenzelcurry/" target="blank">
-                    <img src ="images/Facebook_logo.png" width="30" height="30"></a>
-                <a href="https://twitter.com/denzelcurry" target="blank">
-                    <img src="images/New Twitter Logo.png" width="30" height="30"></a>
-                <a href="https://www.youtube.com/user/DENZELCURRYPH" target="blank">
-                    <img src="images/YOutube Logo.png" width="30" height="30"></a>
-            </ul>
+        <footer class="main-footer">
+            <h2 class="art-name">Melt My Eyez See Your Future</h2>
+            <div class="container main-footer-container">
+                <div class="block-container">
+                    <h8>GET UPDATES</h8>
+                    <a href="www.laylo/denzelcurry">SIGN UP</a>
+                </div>
+                <div class="block-container">
+                    <h8>FOLLOW</h8>
+                    <ul class="nav">
+                    <a href="https://www.instagram.com/denzelcurryph/" target="blank">
+                        <img src="images/Instagram Logo.png" width="30" height="30"></a>
+                    <a href="https://www.facebook.com/ultimatedenzelcurry/" target="blank">
+                        <img src ="images/Facebook_logo.png" width="30" height="30"></a>
+                    <a href="https://twitter.com/denzelcurry" target="blank">
+                        <img src="images/New Twitter Logo.png" width="30" height="30"></a>
+                    <a href="https://www.youtube.com/user/DENZELCURRYPH" target="blank">
+                        <img src="images/YOutube Logo.png" width="30" height="30"></a>
+                    </ul>
+                </div>
             </div>
         </footer>
     </body>
